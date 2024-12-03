@@ -3,12 +3,8 @@
   "compilerOptions": {
     "strict": true,
     "paths": {
-      "@presentation/*": [
-        "./presentation/*"
-      ],
-      "@domain/*": [
-        "./domain/*"
-      ],
+      "@presentation/*": ["./presentation/*"],
+      "@domain/*": ["./domain/*"]
     }
   },
   "include": [

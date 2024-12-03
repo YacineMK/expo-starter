@@ -1,5 +1,5 @@
-import { Text, View } from 'react-native'
-import { StatusBar } from 'expo-status-bar'
+import { Text, View } from "react-native";
+import { StatusBar } from "expo-status-bar";
 
 export default function Index() {
   return (
@@ -7,5 +7,5 @@ export default function Index() {
       <Text>Open up App.js to start working on your app!</Text>
       <StatusBar style="auto" />
     </View>
-  )
+  );
 }
