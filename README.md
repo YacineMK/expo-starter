@@ -29,10 +29,10 @@ A simple and user-friendly starter template for building React Native applicatio
 3. **Install dependencies**
 
    ```bash
-      yarn install
+   yarn install
    ```
 
 4. **Run the project**
    ```bash
-      yarn start
+   yarn start
    ```
