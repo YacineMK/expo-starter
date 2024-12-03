@@ -24,11 +24,14 @@ jobs:
           node-version: "20"
           cache: "yarn"
 
-      - name: Install yarn
+      - name: Install Yarn
         run: npm install -g yarn
 
       - name: Install Dependencies
         run: yarn install
 
-      - name: Build Project
-        run: yarn build
+    #   - name: Install EAS CLI
+    #     run: npm install -g eas-cli
+
+    #   - name: Build Project with EAS
+    #     run: eas build --platform all
